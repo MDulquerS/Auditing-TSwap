@@ -13,16 +13,16 @@
 
 | Link to Repo to be audited                              |                                          |
 | ------------------------------------------------------- | ---------------------------------------- |
-| Commit hash                                             | f426f57731208727addc20adb72cb7f5bf29dc03 |
+| Commit hash                                             | 3e9a66781e6edf9e9c85eabb5994476b5e653259 |
 | Number of Contracts in Scope                            | 2                                        |
 | Total SLOC for contracts in scope                       | 374                                      |
 | Complexity Score                                        | 174                                      |
 | How many external protocols does the code interact with | Many ERC20s                              |
 | Overall test coverage for code under audit              | 40.91%                                   |
 
-### In Scope Contracts                                                    
+### In Scope Contracts
 
-*You could run `tree ./src/ | sed 's/└/#/g; s/──/--/g; s/├/#/g; s/│ /|/g; s/│/|/g'` to get a nice output that works with pandoc for all files in `./src/`*
+_You could run `tree ./src/ | sed 's/└/#/g; s/──/--/g; s/├/#/g; s/│ /|/g; s/│/|/g'` to get a nice output that works with pandoc for all files in `./src/`_
 
 ```
 src/PoolFactory.sol
@@ -83,7 +83,7 @@ Resources that can help us understand protocol better.
 
 ### Flow Charts / Design Docs
 
-- 
+-
 
 ### Explainer Videos
 
@@ -112,4 +112,4 @@ None
 
 1. Are you planning on using a bug bounty program? Which one/where?
 2. What is your monitoring solution? What are you monitoring for?
-3. Who is your incident response team? 
+3. Who is your incident response team?
